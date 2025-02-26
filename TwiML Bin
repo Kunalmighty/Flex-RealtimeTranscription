@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+	<Say>Hello! Thank you for calling. Please wait while we connect you to the next available agent.</Say>
+	<Start>
+		<Transcription 
+			transcriptionEngine="google" 
+			languageCode="en-AU" 
+			enableAutomaticPunctuation="true"
+			statusCallbackUrl="https://realtime-transcription-5847.twil.io/updateTranscription"
+			name="Flex hook"/> 
+	</Start>
+	<Enqueue workflowSid="WW1a663a5ca0d2e0f8ac8bec76afd9820b"/>
+</Response>
